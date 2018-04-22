@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <Authors>Michal Medek</Authors>
+    <Company />
+    <Description>Simple library for creating sequential models of convolutional neural networks. Library is for the solving small problems because is aimed on the readable code and modularity more than performance.</Description>
+    <PackageTags>convolutional neural networks deep learning machine learning image processing computer vision</PackageTags>
+    <PackageReleaseNotes>First release of library:
+- 1D and 2D convolutional layer
+- 1D and 2D maxpooling layer
+- flatten layer
+- linear layer
+- activation layer (ReLU, Tanh, Sigmoid, Softmax)
+- loss functions (binary cross-entropy, categorical cross-entropy, MSE)
+- optimalization algorithms (mini-batch SGD, Adam)
+- regularization techniques: Dropout, L2 regularization</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/mmedek/convsharp</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mmedek/convsharp/wiki</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\Convsharp.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Veldrid.ImageSharp" Version="4.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="iris_test.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="iris_train.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="t10k-images.idx3-ubyte">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="train-images.idx3-ubyte">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
