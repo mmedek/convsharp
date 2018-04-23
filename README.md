@@ -9,6 +9,8 @@ The Convsharp library is simple library written in C# which provides simple tool
 * optimalization techniques like mini-batch gradient descent or Adam
 * activation functions like ReLU, Tanh or Sigmoid
 
+For more information visit page with documentation on github pages: https://mmedek.github.io/convsharp/index.html
+
 ## Installing
 
 To use Convsharp in your project, please use NuGet package. For the installation go through following steps:
