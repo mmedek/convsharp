@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['size',['size',['../class_zcu_1_1_convsharp_1_1_layer_1_1_flatten_layer.html#ae4a4717218033f7c1eb48016aa95650e',1,'Zcu::Convsharp::Layer::FlattenLayer']]],
+  ['std',['std',['../class_zcu_1_1_convsharp_1_1_initializers_1_1_normal_weight_initializer.html#a512d9f5451711d4e30d1afec15f64155',1,'Zcu.Convsharp.Initializers.NormalWeightInitializer.std()'],['../class_zcu_1_1_convsharp_1_1_initializers_1_1_xavier_weight_initializer.html#a86d50909bb24407ced32a9d8b75b19dd',1,'Zcu.Convsharp.Initializers.XavierWeightInitializer.std()']]],
+  ['stride',['stride',['../class_zcu_1_1_convsharp_1_1_layer_1_1_average_pooling2_d_layer.html#acdda4e1ef7748e5943f828cc300b0ead',1,'Zcu.Convsharp.Layer.AveragePooling2DLayer.stride()'],['../class_zcu_1_1_convsharp_1_1_layer_1_1_convolution1_d_layer.html#a01713aace25db8b1e32785ff397d8106',1,'Zcu.Convsharp.Layer.Convolution1DLayer.stride()'],['../class_zcu_1_1_convsharp_1_1_layer_1_1_convolution2_d_layer.html#a969e4b403ef0567aaa203023bd8b71b7',1,'Zcu.Convsharp.Layer.Convolution2DLayer.stride()'],['../class_zcu_1_1_convsharp_1_1_layer_1_1_max_pooling1_d_layer.html#a958179b0a64aca882a9a09c8b99c220f',1,'Zcu.Convsharp.Layer.MaxPooling1DLayer.stride()'],['../class_zcu_1_1_convsharp_1_1_layer_1_1_max_pooling2_d_layer.html#ae54c4a082f3418835429d51bb234f260',1,'Zcu.Convsharp.Layer.MaxPooling2DLayer.stride()']]]
+];
